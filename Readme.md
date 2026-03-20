@@ -2,6 +2,8 @@
 
 A personal productivity web app for students to track study hours, manage tasks, and monitor project progress — all in one place.
 
+🔗 **Live Demo:** [study-app-tawny-tau.vercel.app](https://study-app-tawny-tau.vercel.app)
+
 ## ✨ Features
 
 - **Authentication** — Secure login and signup with Firebase Auth
@@ -101,12 +103,15 @@ users/
 
 ## 📦 Deployment
 
-This app is deployed on Vercel. To deploy your own instance:
+This app is live at **[study-app-tawny-tau.vercel.app](https://study-app-tawny-tau.vercel.app)**, hosted on Vercel.
+
+To deploy your own instance:
 
 1. Push your code to GitHub
 2. Import the repo at [vercel.com](https://vercel.com)
-3. Add your `.env` variables under **Project Settings → Environment Variables**
-4. Deploy — Vercel auto-deploys on every push to `main`
+3. Set **Root Directory** to `study-app` if your repo has a wrapper folder
+4. Add your `.env` variables under **Project Settings → Environment Variables**
+5. Deploy — Vercel auto-deploys on every push to `main`
 
 ## 🔮 Planned Features
 
